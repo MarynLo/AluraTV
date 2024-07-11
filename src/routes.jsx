@@ -1,9 +1,9 @@
 import React from "react"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { VideoProvider } from "./context/context"
 import PaginaBase from "./pages/PaginaBase"
 import NuevoVideo from "./pages/NuevoVideo"
 import Inicio from "./pages/Inicio"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 function AppRoutes() {
     return (
