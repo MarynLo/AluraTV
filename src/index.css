@@ -1,0 +1,44 @@
+:root {
+  --font: "Roboto", sans-serif;
+  --dark-grey: #262626;
+  --black: #000000E5;
+  --blue: #007BFF;
+  --blue-light: #2271D1;
+  --white: #FFFFFF;
+  --dark-blue: #03122F;
+  --backend: #00C86F;
+  --frontend: #6BD1FF;
+  --innovaciónygestión: #FFBA05;
+  --button-shadow: #0b223f;
+  --error: red;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Personalizar la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento vertical */
+  height: 12px; /* Altura de la barra de desplazamiento horizontal */
+}
+
+/* Personalizar la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: var(--dark-blue); /* Color de fondo de la pista */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Personalizar el pulgar (thumb) de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: var(--blue-light); /* Color del pulgar */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Personalizar el pulgar (thumb) cuando el cursor pasa sobre él */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--backend); /* Color del pulgar al pasar el cursor */
+}

@@ -1,0 +1,103 @@
+.cardContainer {
+    flex: 0 0 auto;
+    border: none;
+    background-color: var(--black);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    /* justify-content: center; */
+    display: flex;
+    align-items: stretch;
+    /* gap: 30px; */
+    transition: transform 0.3s;
+    /* flex-wrap: wrap; */
+   
+}
+
+.cardContainer:hover {
+    transform: scale(1.05);
+}
+
+.imgVideo {
+    width: 100%; 
+    height: 200px;
+    border-radius: 5px; 
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.buttonBorrar,
+.buttonEditar {
+    background-color: transparent;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonBorrar:hover {
+    color: var(--blue-light);
+}
+
+.buttonEditar:hover {
+    color: var(--blue);
+}
+
+.buttonBorrar img,
+.buttonEditar img {
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+    width: 20px;
+}
+
+
+.tituloButton {
+    margin: 0;
+    /* Elimina márgenes adicionales alrededor del texto */
+    padding: 0;
+}
+
+.imgVideo, .frontend {
+    box-shadow: inset 0 0 6px 5px var(--frontend);
+}
+
+.imgVideo, .backend {
+    box-shadow: inset 0 0 6px 5px var(--backend);
+}
+
+.imgVideo, .innovaciónygestión {
+    box-shadow: inset 0 0 6px 5px var(--innovaciónygestión);
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .cardContainer {
+       width: 270px;
+       margin-left: 20px; 
+       flex: 0 0 auto;
+    }
+}
+
+@media (max-width: 430px) {
+    .cardContainer {
+        width: auto;;
+    }
+}

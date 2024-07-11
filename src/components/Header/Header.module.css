@@ -1,0 +1,172 @@
+.header {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: var(--dark-grey);
+    border-bottom: 4px solid var(--blue, #2271D1);
+    box-shadow: 0px 5px 29px 0px #2271D1B2;
+}
+
+a{ text-decoration: none;}
+
+.logoContainer {
+    width: 168px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.header img {
+    width: 350px;
+    transition: filter 0.3s ease-out;
+}
+
+.header img:hover {
+    filter: brightness(1.4); /* Ajusta el valor según el efecto deseado */
+}
+
+.nav {
+    display: flex; 
+}
+
+.buttonHome,
+.buttonNuevoVideo {
+    width: 180px;
+    height: 54px;
+    margin-top: 10px; 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 10px;
+    background-color: var(--dark);
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.buttonText {
+    margin-left: 10px;
+}
+
+.buttonHome {
+    color: var(--white);
+}
+
+.buttonNuevoVideo {
+    color: var(--white);
+}
+
+.activeButton {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    box-shadow: inset -0em -0em 1rem -0 var(--blue);
+    background-color: var(--black);
+}
+
+
+
+.buttonHome, .buttonNuevoVideo:hover {
+    filter: brightness(1.4);
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px){
+  
+ 
+    .nav {
+        width: auto;
+    }
+    
+
+    .header img {
+        width: 100%;
+    }
+
+    .logoContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .buttonHome,
+    .buttonNuevoVideo {
+    margin-bottom: 15px;
+}
+}
+
+@media (max-width: 430px) {
+
+    .header {
+        position: fixed;
+        bottom: 0;
+        /* width: 100%; */
+        background-color: var(--dark-grey);
+        display: flex;
+        /* padding: 10px; */
+        box-sizing: border-box;
+        height: auto;
+        /* flex-direction: row-reverse; */
+        justify-content: center;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .buttonHome .fa,
+  .buttonNuevoVideo .fa {
+    display: inline !important; /* Muestra el icono en móviles */
+  }
+
+  .buttonHome .buttonText,
+  .buttonNuevoVideo .buttonText {
+    display: inline !important; /* Muestra el texto del botón en móviles */
+  }
+
+    .buttonHome,
+    .buttonNuevoVideo {
+        margin: 0 10px; 
+        transition: filter 0.3s ease-out;
+        border: none;
+    }
+
+    .buttonHome {
+        color: var(--white);
+    }
+    
+    .buttonNuevoVideo {
+        color: var(--white);
+    }
+    
+    .buttonHome, .buttonNuevoVideo:hover {
+        filter: brightness(1.4);
+    }
+
+    .activeButton {
+        border: 2px solid var(--blue);
+        color: var(--blue);
+        box-shadow: inset -0em -0em 1rem -0 var(--blue);
+        background-color: var(--black);
+    }
+}
+
+/* Media query para dispositivos de más de 430px */
+@media (min-width: 431px) {
+    .buttonHome .fa,
+    .buttonNuevoVideo .fa {
+      display: none !important; /* Oculta el icono en pantallas más grandes */
+    }
+  
+    .buttonHome .buttonText,
+    .buttonNuevoVideo .buttonText {
+      display: inline !important; /* Muestra el texto del botón en pantallas más grandes */
+    }
+  }
+
+  

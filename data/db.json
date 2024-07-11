@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": "2",
+      "titulo": "Cuándo usar let, var y const?",
+      "video": "https://www.youtube.com/embed/PztCEdIJITY?si=hfEWd-LVzlUvP_qT",
+      "foto": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+      "categoria": "Front End",
+      "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+    },
+    {
+      "id": "7",
+      "titulo": "Simplificando tu código en Java. Conoce los enum",
+      "video": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+      "foto": "https://i.ytimg.com/vi/EoPvlE85XAQ/maxresdefault.jpg",
+      "categoria": "Back End",
+      "descripcion": "Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum."
+    },
+    {
+      "id": "9",
+      "titulo": "7 Soft Skills más deseadas por las empresas",
+      "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "foto": "https://i.ytimg.com/vi/YhR7Zp8NUzE/maxresdefault.jpg",
+      "categoria": "Innovación y Gestión",
+      "descripcion": "¿Sabes cuáles son las 7 más buscadas por las empresas?"
+    },
+    {
+      "id": "389d",
+      "titulo": "Metodologías Agiles",
+      "video": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+      "foto": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+      "categoria": "Innovación y Gestión",
+      "descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa.\n"
+    },
+    {
+      "id": "7439",
+      "titulo": "¿Sabes qué es NodeJS?",
+      "video": "https://www.youtube.com/watch?v=o8x_n4Px1N0",
+      "foto": "https://img.youtube.com/vi/o8x_n4Px1N0/maxresdefault.jpg",
+      "categoria": "Back End",
+      "descripcion": "¿Es un lenguaje de programación? ¿Es un ambiente de desarrollo? ¿Una herramienta? En este video nuestro instructor, Leonardo Castillo, nos explica qué es NodeJS y para qué sirve."
+    },
+    {
+      "id": "d384",
+      "titulo": "Cómo volverse un desarrollador Front End",
+      "video": "https://www.youtube.com/watch?v=-Ou5c3A225k",
+      "foto": "https://img.youtube.com/vi/-Ou5c3A225k/maxresdefault.jpg",
+      "categoria": "Front End",
+      "descripcion": "Terminé mis estudios, ¿y ahora? ¿Cómo puedo entrar al mercado laboral? ¿Cómo encontrar un trabajo front end? En este video nuestra instructor Barbara nos da algunos consejos para las personas que desean entrar en el área del desarrollo web."
+    },
+    {
+      "id": "b8bf",
+      "titulo": "Aprendiendo a utilizar Figma",
+      "video": "https://www.youtube.com/watch?v=Y_6R3XTA2go",
+      "foto": "https://img.youtube.com/vi/Y_6R3XTA2go/maxresdefault.jpg",
+      "categoria": "Front End",
+      "descripcion": "¿Aún no sabes como utilizar Figma y quieres aprender desde cero? En este video, nuestra instructora Barbara Santos nos guiará por un paso a paso a través de todo lo que necesitas saber para comenzar a diseñar con Figma."
+    },
+    {
+      "id": "39d2",
+      "titulo": "Camino hacia el éxito como desarrollador Java",
+      "video": "https://www.youtube.com/watch?v=zOetOoeOrOg",
+      "foto": "https://img.youtube.com/vi/zOetOoeOrOg/maxresdefault.jpg",
+      "categoria": "Back End",
+      "descripcion": "¡Descubre el camino hacia el éxito como desarrollador Java! 💻🚀 En esta entrevista, exploramos los secretos del mundo Java y respondemos a tus preguntas clave:"
+    },
+    {
+      "id": "620c",
+      "titulo": "¿Por qué utilizar React?",
+      "video": "https://www.youtube.com/watch?v=MnBNPA45NW8",
+      "foto": "https://img.youtube.com/vi/MnBNPA45NW8/maxresdefault.jpg",
+      "categoria": "Front End",
+      "descripcion": "En el Alura.tips de hoy platicaremos con Harland Lohora, instructor Front End en la plataforma de Alura Latam, sobre la librería JS de React. \n\nHarland nos comentará como surgió React, por que utilizarlo y por que se tornó una librería tan importante en el desarrollo front end."
+    }
+  ]
+}
